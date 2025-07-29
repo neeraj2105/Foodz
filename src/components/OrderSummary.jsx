@@ -1,7 +1,7 @@
 import React from 'react';
 import { Clock, MapPin, Phone, Star } from 'lucide-react';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button';
 
 const OrderSummary = ({
   orderNumber,

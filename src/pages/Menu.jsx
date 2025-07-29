@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Search, Filter, Star, Clock, Leaf, Flame, ShoppingCart, Plus, Minus } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/Button';
+import { Input } from '@/components/ui/Input';
+import { Card } from '@/components/ui/Card';
 import { foodItems, categories } from '@/data/menuData';
 import { useCart } from '@/contexts/CartContext';
 

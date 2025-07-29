@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
 import { Search, Star, Clock, Utensils, Truck, Shield } from 'lucide-react';
 import DeliveryMap from '@/components/DeliveryMap';
 import OrderSummary from '@/components/OrderSummary';

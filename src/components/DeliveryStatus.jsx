@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { CheckCircle2, Clock, Truck, ChefHat } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import { Card } from '@/components/ui/Card';
 
 const DeliveryStatus = ({ currentStatus }) => {
   const getSteps = () => {
